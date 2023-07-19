@@ -1,7 +1,24 @@
 {
   "item.motleysmusicdiscs.alleyesonme_musicdisc": "Music Disc",
   "item.motleysmusicdiscs.alleyesonme_musicdisc.desc": "All Eyes On Me - Bo Burnham",
-
+  "item.motleysmusicdiscs.kokomo_musicdisc": "Music Disc",
+  "item.motleysmusicdiscs.kokomo_musicdisc.desc": "Kokomo - The Beach Boys",
+  "item.motleysmusicdiscs.underpressure_musicdisc": "Music Disc",
+  "item.motleysmusicdiscs.underpressure_musicdisc.desc": "Under Pressure - Queen",
+  "item.motleysmusicdiscs.buttercup_musicdisc": "Music Disc",
+  "item.motleysmusicdiscs.buttercup_musicdisc.desc": "Buttercup - Jack Stauber",
+  "item.motleysmusicdiscs.wap_musicdisc": "Music Disc",
+  "item.motleysmusicdiscs.wap_musicdisc.desc": "WAP - Cardi B ft. Megan Thee Stallion",
+  "item.motleysmusicdiscs.bodies_musicdisc": "Music Disc",
+  "item.motleysmusicdiscs.bodies_musicdisc.desc": "Bodies - Drowning Pool",
+  "item.motleysmusicdiscs.heartofglass_musicdisc": "Music Disc",
+  "item.motleysmusicdiscs.heartofglass_musicdisc.desc": "Heart of Glass - Miley Cyrus",
+  "item.motleysmusicdiscs.everybody_musicdisc": "Music Disc",
+  "item.motleysmusicdiscs.everybody_musicdisc.desc": "Everybody (Backstreet's Back) - The Backstreet Boys",
+  "item.motleysmusicdiscs.allstar_musicdisc": "Music Disc",
+  "item.motleysmusicdiscs.allstar_musicdisc.desc": "All Star - Smashmouth",
+  "item.motleysmusicdiscs.dancingqueen_musicdisc": "Music Disc",
+  "item.motleysmusicdiscs.dancingqueen_musicdisc.desc": "Dancing Queen - ABBA",
 
 
   "itemGroup.motleysmusicdiscs.disc_group": "Motley's Music Discs"

@@ -8,6 +8,16 @@ import net.minecraft.util.registry.Registry;
 public class ModSounds {
 
     public static final SoundEvent ALLEYESONME = registerSoundEvent("alleyesonme");
+    public static final SoundEvent KOKOMO = registerSoundEvent("kokomo");
+    public static final SoundEvent UNDERPRESSURE = registerSoundEvent("underpressure");
+    public static final SoundEvent BUTTERCUP = registerSoundEvent("buttercup");
+    public static final SoundEvent WAP = registerSoundEvent("wap");
+    public static final SoundEvent BODIES = registerSoundEvent("bodies");
+    public static final SoundEvent HEARTOFGLASS = registerSoundEvent("heartofglass");
+    public static final SoundEvent EVERYBODY = registerSoundEvent("everybody");
+    public static final SoundEvent ALLSTAR = registerSoundEvent("allstar");
+    public static final SoundEvent DANCINGQUEEN = registerSoundEvent("dancingqueen");
+
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(MotleysMusicDiscs.MOD_ID, name);

@@ -6,5 +6,77 @@
         "stream": true
       }
     ]
+  },
+  "kokomo": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:kokomo",
+        "stream": true
+      }
+    ]
+  },
+  "underpressure": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:underpressure",
+        "stream": true
+      }
+    ]
+  },
+  "buttercup": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:buttercup",
+        "stream": true
+      }
+    ]
+  },
+  "wap": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:wap",
+        "stream": true
+      }
+    ]
+  },
+  "bodies": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:bodies",
+        "stream": true
+      }
+    ]
+  },
+  "heartofglass": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:heartofglass",
+        "stream": true
+      }
+    ]
+  },
+  "everybody": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:everybody",
+        "stream": true
+      }
+    ]
+  },
+  "allstar": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:allstar",
+        "stream": true
+      }
+    ]
+  },
+  "dancingqueen": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:dancingqueen",
+        "stream": true
+      }
+    ]
   }
 }
