@@ -2,6 +2,9 @@ package net.grace.motleysmusicdiscs;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.grace.motleysmusicdiscs.item.ModItemGroup;
+import net.grace.motleysmusicdiscs.item.ModItems;
+import net.grace.motleysmusicdiscs.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +16,8 @@ public class MotleysMusicDiscs implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModSounds.registerSounds();
+		ModItemGroup.registerItemGroups();
 
 	}
 }

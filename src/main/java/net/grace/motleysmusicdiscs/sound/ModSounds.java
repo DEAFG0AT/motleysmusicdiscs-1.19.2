@@ -13,4 +13,8 @@ public class ModSounds {
         Identifier id = new Identifier(MotleysMusicDiscs.MOD_ID, name);
         return Registry.register(Registry.SOUND_EVENT, id, new SoundEvent(id));
     }
+
+    public static void registerSounds() {
+        MotleysMusicDiscs.LOGGER.info("Registering Mod Sounds for " + MotleysMusicDiscs.MOD_ID );
+    }
 }
