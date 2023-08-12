@@ -29,6 +29,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EVERYBODY_MUSICDISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.ALLSTAR_MUSICDISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.DANCINGQUEEN_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FORTHEDAMAGEDCODA_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ABOUTDAMNTIME_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COMEANDGETYOURLOVE_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ROXANNE_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BREAKMYSTRIDE_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ANOTHERONEBITESTHEDUST_MUSICDISC, Models.GENERATED);
 
 
     }

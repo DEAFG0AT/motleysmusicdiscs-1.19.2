@@ -32,6 +32,18 @@ public class ModItems {
             new MusicDiscItem(9, ModSounds.ALLSTAR, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 223));
     public static final Item DANCINGQUEEN_MUSICDISC = registerItem("dancingqueen_musicdisc",
             new MusicDiscItem(9, ModSounds.DANCINGQUEEN, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 223));
+    public static final Item FORTHEDAMAGEDCODA_MUSICDISC = registerItem("forthedamagedcoda_musicdisc",
+            new MusicDiscItem(9, ModSounds.FORTHEDAMAGEDCODA, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 223));
+    public static final Item ABOUTDAMNTIME_MUSICDISC = registerItem("aboutdamntime_musicdisc",
+            new MusicDiscItem(9, ModSounds.ABOUTDAMNTIME, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 223));
+    public static final Item COMEANDGETYOURLOVE_MUSICDISC = registerItem("comeandgetyourlove_musicdisc",
+            new MusicDiscItem(9, ModSounds.COMEANDGETYOURLOVE, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 223));
+    public static final Item ROXANNE_MUSICDISC = registerItem("roxanne_musicdisc",
+            new MusicDiscItem(9, ModSounds.ROXANNE, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 223));
+    public static final Item BREAKMYSTRIDE_MUSICDISC = registerItem("breakmystride_musicdisc",
+            new MusicDiscItem(9, ModSounds.BREAKMYSTRIDE, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 223));
+    public static final Item ANOTHERONEBITESTHEDUST_MUSICDISC = registerItem("anotheronebitesthedust_musicdisc",
+            new MusicDiscItem(9, ModSounds.ANOTHERONEBITESTHEDUST, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 223));
 
 
 

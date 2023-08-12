@@ -78,5 +78,53 @@
         "stream": true
       }
     ]
+  },
+  "forthedamagedcoda": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:forthedamagedcoda",
+        "stream": true
+      }
+    ]
+  },
+  "aboutdamntime": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:aboutdamntime",
+        "stream": true
+      }
+    ]
+  },
+  "comeandgetyourlove": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:comeandgetyourlove",
+        "stream": true
+      }
+    ]
+  },
+  "roxanne": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:roxanne",
+        "stream": true
+      }
+    ]
+  },
+  "breakmystride": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:breakmystride",
+        "stream": true
+      }
+    ]
+  },
+  "anotheronebitesthedust": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:anotheronebitesthedust",
+        "stream": true
+      }
+    ]
   }
 }

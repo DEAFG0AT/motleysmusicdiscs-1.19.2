@@ -17,6 +17,13 @@ public class ModSounds {
     public static final SoundEvent EVERYBODY = registerSoundEvent("everybody");
     public static final SoundEvent ALLSTAR = registerSoundEvent("allstar");
     public static final SoundEvent DANCINGQUEEN = registerSoundEvent("dancingqueen");
+    public static final SoundEvent FORTHEDAMAGEDCODA = registerSoundEvent("forthedamagedcoda");
+    public static final SoundEvent ABOUTDAMNTIME = registerSoundEvent("aboutdamntime");
+    public static final SoundEvent COMEANDGETYOURLOVE = registerSoundEvent("comeandgetyourlove");
+    public static final SoundEvent ROXANNE = registerSoundEvent("roxanne");
+    public static final SoundEvent BREAKMYSTRIDE = registerSoundEvent("breakmystride");
+    public static final SoundEvent ANOTHERONEBITESTHEDUST = registerSoundEvent("anotheronebitesthedust");
+
 
 
     private static SoundEvent registerSoundEvent(String name) {
