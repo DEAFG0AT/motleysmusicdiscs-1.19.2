@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.grace.motleysmusicdiscs.item.ModItemGroup;
 import net.grace.motleysmusicdiscs.item.ModItems;
 import net.grace.motleysmusicdiscs.sound.ModSounds;
+import net.grace.motleysmusicdiscs.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +19,7 @@ public class MotleysMusicDiscs implements ModInitializer {
 		ModItems.registerModItems();
 		ModSounds.registerSounds();
 		ModItemGroup.registerItemGroups();
+		ModLootTableModifiers.modifyLootTables();
 
 	}
 }

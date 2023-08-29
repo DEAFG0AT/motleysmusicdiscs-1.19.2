@@ -126,5 +126,61 @@
         "stream": true
       }
     ]
+  },
+  "gimmegimmegimme": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:gimmegimmegimme",
+        "stream": true
+      }
+    ]
+  },
+  "arthur": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:arthur",
+        "stream": true
+      }
+    ]
+  },
+  "killerqueen": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:killerqueen",
+        "stream": true
+      }
+    ]
+  },
+  "bezosi": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:bezosi",
+        "stream": true
+      }
+    ]
+  },
+  "bezosii": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:bezosii",
+        "stream": true
+      }
+    ]
+  },
+  "rasputin": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:rasputin",
+        "stream": true
+      }
+    ]
+  },
+  "nanana": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:nanana",
+        "stream": true
+      }
+    ]
   }
 }

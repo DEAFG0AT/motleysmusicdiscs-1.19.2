@@ -23,6 +23,13 @@ public class ModSounds {
     public static final SoundEvent ROXANNE = registerSoundEvent("roxanne");
     public static final SoundEvent BREAKMYSTRIDE = registerSoundEvent("breakmystride");
     public static final SoundEvent ANOTHERONEBITESTHEDUST = registerSoundEvent("anotheronebitesthedust");
+    public static final SoundEvent GIMMEGIMMEGIMME = registerSoundEvent("gimmegimmegimme");
+    public static final SoundEvent ARTHUR = registerSoundEvent("arthur");
+    public static final SoundEvent KILLERQUEEN = registerSoundEvent("killerqueen");
+    public static final SoundEvent BEZOSI = registerSoundEvent("bezosi");
+    public static final SoundEvent BEZOSII = registerSoundEvent("bezosii");
+    public static final SoundEvent RASPUTIN = registerSoundEvent("rasputin");
+    public static final SoundEvent NANANA = registerSoundEvent("rasputin");
 
 
 
