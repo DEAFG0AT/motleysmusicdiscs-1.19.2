@@ -29,7 +29,9 @@ public class ModSounds {
     public static final SoundEvent BEZOSI = registerSoundEvent("bezosi");
     public static final SoundEvent BEZOSII = registerSoundEvent("bezosii");
     public static final SoundEvent RASPUTIN = registerSoundEvent("rasputin");
-    public static final SoundEvent NANANA = registerSoundEvent("rasputin");
+    public static final SoundEvent NANANA = registerSoundEvent("nanana");
+    public static final SoundEvent GHOSTBUSTERS = registerSoundEvent("ghostbusters");
+    public static final SoundEvent MONSTERMASH = registerSoundEvent("monstermash");
 
 
 

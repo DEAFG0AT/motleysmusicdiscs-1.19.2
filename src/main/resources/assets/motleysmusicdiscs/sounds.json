@@ -182,5 +182,21 @@
         "stream": true
       }
     ]
+  },
+  "ghostbusters": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:ghostbusters",
+        "stream": true
+      }
+    ]
+  },
+  "monstermash": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:monstermash",
+        "stream": true
+      }
+    ]
   }
 }

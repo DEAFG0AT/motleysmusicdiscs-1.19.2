@@ -42,6 +42,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BEZOSII_MUSICDISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.RASPUTIN_MUSICDISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.NANANA_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GHOSTBUSTERS_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MONSTERMASH_MUSICDISC, Models.GENERATED);
 
 
     }

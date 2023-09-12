@@ -49,15 +49,19 @@ public class ModItems {
     public static final Item ARTHUR_MUSICDISC = registerItem("arthur_musicdisc",
             new MusicDiscItem(9, ModSounds.ARTHUR, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 120));
     public static final Item KILLERQUEEN_MUSICDISC = registerItem("killerqueen_musicdisc",
-            new MusicDiscItem(9, ModSounds.KILLERQUEEN, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 120));
+            new MusicDiscItem(9, ModSounds.KILLERQUEEN, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 180));
     public static final Item BEZOSI_MUSICDISC = registerItem("bezosi_musicdisc",
-            new MusicDiscItem(9, ModSounds.BEZOSI, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 120));
+            new MusicDiscItem(9, ModSounds.BEZOSI, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 58));
     public static final Item BEZOSII_MUSICDISC = registerItem("bezosii_musicdisc",
-            new MusicDiscItem(9, ModSounds.BEZOSII, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 120));
+            new MusicDiscItem(9, ModSounds.BEZOSII, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 45));
     public static final Item RASPUTIN_MUSICDISC = registerItem("rasputin_musicdisc",
-            new MusicDiscItem(9, ModSounds.RASPUTIN, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 120));
+            new MusicDiscItem(9, ModSounds.RASPUTIN, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 256));
     public static final Item NANANA_MUSICDISC = registerItem("nanana_musicdisc",
-            new MusicDiscItem(9, ModSounds.NANANA, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 120));
+            new MusicDiscItem(9, ModSounds.NANANA, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 196));
+    public static final Item GHOSTBUSTERS_MUSICDISC = registerItem("ghostbusters_musicdisc",
+            new MusicDiscItem(9, ModSounds.GHOSTBUSTERS, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 196));
+    public static final Item MONSTERMASH_MUSICDISC = registerItem("monstermash_musicdisc",
+            new MusicDiscItem(9, ModSounds.MONSTERMASH, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 196));
 
 
 

@@ -33,7 +33,7 @@ public class ModLootTableModifiers {
             = new Identifier("minecraft", "chests/woodland_mansion");
     private static final Identifier STRONGHOLD_CROSSING_STRUCTURE_ID
             = new Identifier("minecraft", "chests/stronghold_crossing");
-    private static final Identifier NETHER_BRIDGE_STRUCTURE_ID
+    private static final Identifier RUINED_PORTAL_STRUCTURE_ID
             = new Identifier("minecraft", "chests/nether_bridge");
 
     public static void modifyLootTables() {
@@ -147,7 +147,7 @@ public class ModLootTableModifiers {
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
-            if(NETHER_BRIDGE_STRUCTURE_ID.equals(id)) {
+            if(RUINED_PORTAL_STRUCTURE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(.25f)) // Drops 25% of the time
