@@ -198,5 +198,37 @@
         "stream": true
       }
     ]
+  },
+  "dreamsweetinseamajor": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:dreamsweetinseamajor",
+        "stream": true
+      }
+    ]
+  },
+  "perfume": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:perfume",
+        "stream": true
+      }
+    ]
+  },
+  "welcometotheinternet": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:welcometotheinternet",
+        "stream": true
+      }
+    ]
+  },
+  "holdingoutforahero": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:holdingoutforahero",
+        "stream": true
+      }
+    ]
   }
 }

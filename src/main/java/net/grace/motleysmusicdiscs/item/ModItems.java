@@ -59,9 +59,25 @@ public class ModItems {
     public static final Item NANANA_MUSICDISC = registerItem("nanana_musicdisc",
             new MusicDiscItem(9, ModSounds.NANANA, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 196));
     public static final Item GHOSTBUSTERS_MUSICDISC = registerItem("ghostbusters_musicdisc",
-            new MusicDiscItem(9, ModSounds.GHOSTBUSTERS, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 196));
+            new MusicDiscItem(9, ModSounds.GHOSTBUSTERS, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 231));
     public static final Item MONSTERMASH_MUSICDISC = registerItem("monstermash_musicdisc",
-            new MusicDiscItem(9, ModSounds.MONSTERMASH, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 196));
+            new MusicDiscItem(9, ModSounds.MONSTERMASH, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 176));
+    public static final Item DREAMSWEETINSEAMAJOR_MUSICDISC = registerItem("dreamsweetinseamajor_musicdisc",
+            new MusicDiscItem(9, ModSounds.DREAMSWEETINSEAMAJOR, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 62));
+    public static final Item PERFUME_MUSICDISC = registerItem("perfume_musicdisc",
+            new MusicDiscItem(9, ModSounds.PERFUME, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 214));
+    public static final Item WELCOMETOTHEINTERNET_MUSICDISC = registerItem("welcometotheinternet_musicdisc",
+            new MusicDiscItem(9, ModSounds.WELCOMETOTHEINTERNET, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 214));
+    public static final Item HOLDINGOUTFORAHERO_MUSICDISC = registerItem("holdingoutforahero_musicdisc",
+            new MusicDiscItem(9, ModSounds.HOLDINGOUTFORAHERO, new FabricItemSettings().group(ModItemGroup.DISC_GROUP).maxCount(1).rarity(Rarity.RARE), 259));
+
+
+
+
+
+
+
+
 
 
 

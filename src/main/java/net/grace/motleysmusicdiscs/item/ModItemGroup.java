@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItemGroup {
     public static final ItemGroup DISC_GROUP = FabricItemGroupBuilder.build(
-            new Identifier(MotleysMusicDiscs.MOD_ID, "disc_group"), () -> new ItemStack(ModItems.ALLEYESONME_MUSICDISC));
+            new Identifier(MotleysMusicDiscs.MOD_ID, "disc_group"), () -> new ItemStack(ModItems.BEZOSI_MUSICDISC));
 
 
 

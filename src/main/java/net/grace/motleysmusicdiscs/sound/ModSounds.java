@@ -32,6 +32,10 @@ public class ModSounds {
     public static final SoundEvent NANANA = registerSoundEvent("nanana");
     public static final SoundEvent GHOSTBUSTERS = registerSoundEvent("ghostbusters");
     public static final SoundEvent MONSTERMASH = registerSoundEvent("monstermash");
+    public static final SoundEvent DREAMSWEETINSEAMAJOR = registerSoundEvent("dreamsweetinseamajor");
+    public static final SoundEvent PERFUME = registerSoundEvent("perfume");
+    public static final SoundEvent WELCOMETOTHEINTERNET = registerSoundEvent("welcometotheinternet");
+    public static final SoundEvent HOLDINGOUTFORAHERO = registerSoundEvent("holdingoutforahero");
 
 
 

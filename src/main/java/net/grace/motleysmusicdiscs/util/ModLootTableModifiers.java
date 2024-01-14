@@ -34,7 +34,9 @@ public class ModLootTableModifiers {
     private static final Identifier STRONGHOLD_CROSSING_STRUCTURE_ID
             = new Identifier("minecraft", "chests/stronghold_crossing");
     private static final Identifier RUINED_PORTAL_STRUCTURE_ID
-            = new Identifier("minecraft", "chests/nether_bridge");
+            = new Identifier("minecraft", "chests/ruined_portal");
+    private static final Identifier UNDERWATER_RUIN_BIG_STRUCTURE_ID
+            = new Identifier("minecraft", "chests/underwater_ruin_big");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
@@ -93,9 +95,6 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(.25f)) // Drops 25% of the time
-                        .with(ItemEntry.builder(ModItems.UNDERPRESSURE_MUSICDISC))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build())
-                        .conditionally(RandomChanceLootCondition.builder(.25f)) // Drops 25% of the time
                         .with(ItemEntry.builder(ModItems.WAP_MUSICDISC))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
@@ -112,22 +111,13 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(.1f)) // Drops 10% of the time
-                        .with(ItemEntry.builder(ModItems.HEARTOFGLASS_MUSICDISC))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build())
-                        .conditionally(RandomChanceLootCondition.builder(.1f)) // Drops 10% of the time
-                        .with(ItemEntry.builder(ModItems.ALLEYESONME_MUSICDISC))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build())
-                        .conditionally(RandomChanceLootCondition.builder(.1f)) // Drops 10% of the time
-                        .with(ItemEntry.builder(ModItems.DANCINGQUEEN_MUSICDISC))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build())
-                        .conditionally(RandomChanceLootCondition.builder(.1f)) // Drops 10% of the time
-                        .with(ItemEntry.builder(ModItems.BEZOSI_MUSICDISC))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build())
-                        .conditionally(RandomChanceLootCondition.builder(.1f)) // Drops 10% of the time
-                        .with(ItemEntry.builder(ModItems.BEZOSII_MUSICDISC))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build())
-                        .conditionally(RandomChanceLootCondition.builder(.1f)) // Drops 10% of the time
                         .with(ItemEntry.builder(ModItems.RASPUTIN_MUSICDISC))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build())
+                        .conditionally(RandomChanceLootCondition.builder(.1f)) // Drops 10% of the time
+                        .with(ItemEntry.builder(ModItems.HOLDINGOUTFORAHERO_MUSICDISC))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build())
+                        .conditionally(RandomChanceLootCondition.builder(.1f)) // Drops 10% of the time
+                        .with(ItemEntry.builder(ModItems.GIMMEGIMMEGIMME_MUSICDISC))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -152,6 +142,14 @@ public class ModLootTableModifiers {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(.25f)) // Drops 25% of the time
                         .with(ItemEntry.builder(ModItems.NANANA_MUSICDISC))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(UNDERWATER_RUIN_BIG_STRUCTURE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(.25f)) // Drops 25% of the time
+                        .with(ItemEntry.builder(ModItems.DREAMSWEETINSEAMAJOR_MUSICDISC))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
